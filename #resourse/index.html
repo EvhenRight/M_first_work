@@ -5,266 +5,239 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< Updated upstream
-    <title>Document</title>
-    <link rel="stylesheet" href="../M_first_work/style.css">
-=======
     <title>Shop</title>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
->>>>>>> Stashed changes
 </head>
 
-<body>
-    <header>
-        <img class="header__logo" src="./img/logo.svg" alt="logo">
-        <img class="header__loupe" src="./img/loupe.svg" alt="loupe">
-        <button class="header__burger" type="button"><img src="./img/burger.svg" alt="burger"></button>
-        <a class="header__menu" href="#"><img src="./img/burger.svg" alt="burger"></a>
-        <a class="header__user"href="#"><img src="./img/profile.svg" alt="profile"></a>
-        <a class="header__bag" href="#"><img src="./img/bag.svg" alt="bag"></a>
+<body class="shop-page">
+    <header class="header">
+        <div class="container header__controls">
+            <div class="header__controls-log">
+        <img class="header__controls-logo" src="./img/logo.svg" alt="logo">
+        <img class="header__controls-loupe" src="./img/loupe.svg" alt="loupe">
+        </div>
+        <div class="header__controls">
+    <button class="header__controls-button" type="button">
+        <svg class="icon" width="32" height="23" viewBox="0 0 32 23"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z" />
+        </svg>
+    </button>
+        <a class="header__controls-menu" href="#"><img src="./img/burger.svg" alt="burger"></a>
+        <a class="header__controls-user"href="#"><img src="./img/profile.svg" alt="profile"></a>
+        <a class="header__controls-bag" href="#"><img src="./img/bag.svg" alt="bag"></a>
+    </div>
+    <nav class="header__nav">
+        <h2 class="header__nav-title">
+            menu
+        </h2>
+        <ul class="header__menu-list">
+            <li class="header__menu-item menu-item">
+                <h3 class="menu-item__title">man</h3>
+                <ul class="menu-item__sub-list">
+                    <li class="menu-item__sub-item">Accessories</li>
+                    <li class="menu-item__sub-item">Bags</li>
+                    <li class="menu-item__sub-item">Denim</li>
+                    <li class="menu-item__sub-item">T-Shirts</li>
+                </ul>
+            </li>
+            <li class="header__menu-item menu-item">
+                <h3 class="menu-item__title">woman</h3>
+                <ul class="menu-item__sub-list">
+                    <li class="menu-item__sub-item">Accessories</li>
+                    <li class="menu-item__sub-item">Jackets & Coats</li>
+                    <li class="menu-item__sub-item">Polos</li>
+                    <li class="menu-item__sub-item">T-Shirts</li>
+                    <li class="menu-item__sub-item">Shirts</li>
+                </ul>
+            </li>
+            <li class="header__menu-item menu-item">
+                <h3 class="menu-item__title">kids</h3>
+                <ul class="menu-item__sub-list">
+                    <li class="menu-item__sub-item">Accessories</li>
+                    <li class="menu-item__sub-item">Jackets & Coats</li>
+                    <li class="menu-item__sub-item">Polos</li>
+                    <li class="menu-item__sub-item">T-Shirts</li>
+                    <li class="menu-item__sub-item">Shirts</li>
+                    <li class="menu-item__sub-item">Bags</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</div>
     </header>
 
-<<<<<<< Updated upstream
-    <main>
-        <section class="main__menu">
-        <img class="main__img" src="./img/man_maine.jpg" alt="man_maine">
-        <h1 class="main__title"> the brand of luxurious</h1>
-        <h1 class="main__title-red">fashion</h1> 
-        </section>
-        <section class="body__main">
-            <section class="sales__block">
-                <h2 class="sales__title">sales</h2>
-=======
     <main class="main">
-    <div class="brand">
+        <section class="brand">
+            <div class="brand container__big ">
         <img class="brand__img" src="./img/man_maine.png" alt="man_maine">
         <div class="brand__wrp">
             <h1 class="brand__title">the brand <span class="brand__subtitle"> of luxerious <span
                         class="brand__subtitle-red">fashion</span></span></h1>
         </div>
     </div>
+        </section>
         <section class="shop-list container">
             <section class="sales">
-                <h2 class="sales__title visually-hidden "></h2>
->>>>>>> Stashed changes
+                <h2 class="sales__title"></h2>
                 <ul class="sales__list">
-                    <li class="sales__box">
-                        <img src="../M_first_work/img/For_women.jpg" alt="">
+                    <li class="sales__box-women">
                         <p class="sales__box-text">30% off</p>
-                        <h3 class="sales__box-title">for women</h3>
+                        <h3 class="sales__box-red">for women</h3>
                     </li>
-                    <li class="sales__box">
-                        <img src="../M_first_work/img/For_men.jpg" alt="">
+                    <li class="sales__box-men">
                         <p class="sales__box-text">hot deal</p>
-                        <h3 class="sales__box-title">for men</h3>
+                        <h3 class="sales__box-red">for men</h3>
                     </li>
-                    <li class="sales__box">
-                        <img src="../M_first_work/img/For_kids.jpg" alt="">
-                        <p class="sales__box-title">new arrivals</p>
-                        <h3 class="sales__box-text">for kids</h3>
-                    </li>
-                    <li class="sales__box">
-                        <img src="../M_first_work/img/Accesories.jpg" alt="">
-                        <p class="sales__box-text">luxurious & trendy</p>
-                        <h3 class="sales__box-title">accessories</h3>
+                    <li class="sales__box-kids">
+                        <p class="sales__box-text">new arrivals</p>
+                        <h3 class="sales__box-red">for kids</h3>
                     </li>
                 </ul>
+            <div class="sales__block-acces">
+                            <p class="sales__block-text">luxurious & trendy</p>
+                            <h3 class="sales__block-red">accessories</h3>
+            </div>
             </section>
-<<<<<<< Updated upstream
-            <section class="itemsblock">
+            <section class="itemsblock container">
                 <h2 class="itemsblock__title">Featured Items</h2>
                 <p class="itemsblock__text">Shop for items based on what we featured in this week</p>
                 <ul class="itemsblock__menu">
-                    <li class="itemsblock__img"><img src="./img/section2-1.jpg" alt="section2-1">
-=======
-            <section class="itemsblock container">
-                <div class="itemsblock__header">
-                <h2 class="itemsblock__title">Featured Items</h2>
-                <p class="itemsblock__text">Shop for items based on what we featured in this week</p>
-                </div>
-                <ul class="itemsblock__box-menu">
                     <li class="itemsblock__box">
                         <div class="itemsblock__unit">
                         <img class="itemsblock__img" src="./img/section2-1.jpg" alt="section2-1">
                         <div class="itemsblock__item-overlay"></div>
+                        <button class="itemsblock__item-button">add to cart</button>
                         </div>
-                        <button class="itemsblock__box-button">Add to Cart</button>
->>>>>>> Stashed changes
                         <h3 class="itemsblock__box-title">leery x m'o capsule</h3>
                         <p class="itemsblock__box-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
                             Ellery teams up with Moda Operandi.</p>
                         <p class="itemsblock__box-price">$52.00</p>
                     </li>
-<<<<<<< Updated upstream
-                    <li class="itemsblock__img"><img src="./img/section2-2.jpg" alt="section2-2">
-                        <h3 class="itemsblock__box-title">ellery x m'o capsule</h3>
-=======
                     <li class="itemsblock__box">
                         <div class="itemsblock__unit">
                         <img class="itemsblock__img" src="./img/section2-2.jpg" alt="section2-2">
                         <div class="itemsblock__item-overlay"></div>
+                        <button class="itemsblock__item-button">add to cart</button>
                         </div>
-                        <button class="itemsblock__box-button">Add to Cart</button>
                         <h3 class="itemsblock__box-title">leery x m'o capsule</h3>
->>>>>>> Stashed changes
                         <p class="itemsblock__box-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
-                            Ellery
-                            teams up with Moda Operandi.</p>
+                            Ellery teams up with Moda Operandi.</p>
                         <p class="itemsblock__box-price">$52.00</p>
                     </li>
-<<<<<<< Updated upstream
-                    <li class="itemsblock__img"><img src="./img/section2-3.jpg" alt="section2-3">
-                        <h3 class="itemsblock__box">leery x m'o capsule</h3>
-=======
                     <li class="itemsblock__box">
                         <div class="itemsblock__unit">
                         <img class="itemsblock__img" src="./img/section2-3.jpg" alt="section2-3">
                         <div class="itemsblock__item-overlay"></div>
+                        <button class="itemsblock__item-button">add to cart</button>
                         </div>
-                        <button class="itemsblock__box-button">Add to Cart</button>
                         <h3 class="itemsblock__box-title">leery x m'o capsule</h3>
->>>>>>> Stashed changes
                         <p class="itemsblock__box-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
                             Ellery teams up with Moda Operandi.</p>
                         <p class="itemsblock__box-price">$52.00</p>
                     </li>
-<<<<<<< Updated upstream
-                    <li class="itemsblock__img"><img src="./img/section2-4.jpg" alt="section2-4">
-=======
                     <li class="itemsblock__box">
                         <div class="itemsblock__unit">
                         <img class="itemsblock__img" src="./img/section2-4.jpg" alt="section2-4">
                         <div class="itemsblock__item-overlay"></div>
+                        <button class="itemsblock__item-button">add to cart</button>
                         </div>
-                        <button class="itemsblock__box-button">Add to Cart</button>
->>>>>>> Stashed changes
                         <h3 class="itemsblock__box-title">leery x m'o capsule</h3>
                         <p class="itemsblock__box-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
                             Ellery teams up with Moda Operandi.</p>
                         <p class="itemsblock__box-price">$52.00</p>
                     </li>
-<<<<<<< Updated upstream
-                    <li class="itemsblock__img"><img src="./img/section2-5.jpg" alt="section2-5">
-=======
                     <li class="itemsblock__box">
                         <div class="itemsblock__unit">
                         <img class="itemsblock__img" src="./img/section2-5.jpg" alt="section2-5">
                         <div class="itemsblock__item-overlay"></div>
+                        <button class="itemsblock__item-button">add to cart</button>
                         </div>
-                        <button class="itemsblock__box-button">Add to Cart</button>
->>>>>>> Stashed changes
                         <h3 class="itemsblock__box-title">leery x m'o capsule</h3>
                         <p class="itemsblock__box-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
                             Ellery teams up with Moda Operandi.</p>
                         <p class="itemsblock__box-price">$52.00</p>
                     </li>
-<<<<<<< Updated upstream
-                    <li class="itemsblock__img"><img src="./img/section2-6.jpg" alt="section2-6">
-=======
                     <li class="itemsblock__box">
                         <div class="itemsblock__unit">
                         <img class="itemsblock__img" src="./img/section2-6.jpg" alt="section2-6">
                         <div class="itemsblock__item-overlay"></div>
+                        <button class="itemsblock__item-button">add to cart</button>
                         </div>
-                        <button class="itemsblock__box-button">Add to Cart</button>
->>>>>>> Stashed changes
                         <h3 class="itemsblock__box-title">leery x m'o capsule</h3>
                         <p class="itemsblock__box-text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
                             Ellery teams up with Moda Operandi.</p>
                         <p class="itemsblock__box-price">$52.00</p>
                     </li>
+                    </li>
                 </ul>
             </section>
-<<<<<<< Updated upstream
-            <section class="service__block">
-                <p class="service__button">Browse All Product</p>
+            </section>
+            <section class="service">
+                <div class="service__log container__big">
+                <div class="service__button">
+                <button class="service__button-red">Browse All Product</button>
+                </div>
                 <ul class="service__list">
-=======
-            <div class="botton">
-                <button class="botton__item">
-                    <a class="botton__link" href="#">
-                    <p class="botton__text">Browse All Product</p>
-                    </a>
-                </button>
-            </div>
-        </section>
-            <div class="service">
-                <ul class="service__list container">
->>>>>>> Stashed changes
+                    <div class="service__list">
                     <li class="service__box"><img src="./img/car.svg" alt="car">
                         <h3 class="service__box-title">Free Delivery</h3>
                         <p class="service__box-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
                             models.</p>
+                        </div>
                     </li>
+                    <div class="service__list">
                     <li class="service__box"><img src="./img/procent.svg" alt="procent">
                         <h3 class="service__box-title">Sales & discounts</h3>
                         <p class="service__box-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
                             models.</p>
+                        </div>
                     </li>
+                    <div class="service__list">
                     <li class="service__box"><img src="./img/crowm.svg" alt="crowm">
                         <h3 class="service__box-title">Quality assurance</h3>
                         <p class="service__box-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
                             models.</p>
+                        </div>
                     </li>
                 </ul>
             </div>
+            </section>
     </main>
     <footer>
-<<<<<<< Updated upstream
-        <section class="footer__main">
+        <section class="footer__up">
+            <div class="footer container">
+                <div class="footer__main">
             <img class="footer__main-img" src="./img/girl.png" alt="girl">
-            <img class="footer__main-img"src="./img/viev.jpg" alt="viev">
             <p class="footer__main-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+            </div>
+            <div class="footer__main-subscribe">
             <h2 class="footer__main-subtitle">subscribe </h2>
             <h3 class="footer__main-title"> for our newletter and promotion</h3>
-            <p class="footer__main-text">Enter Your Email</p>
-            <p class="footer__main-text">Subscribe</p>
+            <div class="footer__main-form">
+            <p class="footer__main-email">Enter Your Email</p>
+            <button class="footer__main-button">Subscribe</button>
+            </div>
+            </div>
+            </div>
         </section>
         <section class="footer__control">
+            <div class="container footer__control-main">
+            <div class="footer__control-title">
         <p class="footer__control-text">© 2021 Brand All Rights Reserved.</p>
+            </div>
+            <div class="footer__control-icons">
         <a class="footer__control-img" href="#"><img src="./img/facebook.svg" alt="facebook"></a>
         <a class="footer__control-img" href="#"><img src="./img/instagram.svg" alt="instagram"></a>
         <a class="footer__control-img" href="#"><img src="./img/pinterest.svg" alt="pinterest"></a>
         <a class="footer__control-img" href="#"><img src="./img/twitter.svg" alt="twitter"></a>
-=======
-        <section class="subscribe">
-            <h2 class="subscribe__title visually-hidden">subscribe</h2>
-            <ul class="subscribe__list container">
-                <li class="subscribe__item">
-                    <div class="subscribe__position">
-                        <img class="subscribe__img" src="img/girl.png" alt="">
-                        <p class="subscribe__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span class="subscribe__text-span"> a pulvinar purus condimentum“</span></p>
-                    </div>
-                </li>
-                <li class="subscribe__item">
-                    <h3 class="subscribe__subtitle">subscribe</h3>
-                    <p class="subscribe__subtitle-text">for our newletter and promotion</p>
-                    <form action="email" class="email">
-                        <label for="email"><input class="subscribe__email" type="email" placeholder="Enter Your Email"></label>
-                        <button type="submit" class="subscribe__btm">Subscribe</button>
-                    </form>
-                </li>
-            </ul>
->>>>>>> Stashed changes
-        </section>
-        <div class="footer__aside">
-            <div class="container">
-                <ul class="footer__list">
-                    <li class="footer__item">
-                        <p class="footer__item-text">© 2021 Brand All Rights Reserved.</p>
-                    </li>
-                    <li class="footer__social">
-                        <a class="footer__social-icon" href="#"><img class="footer__social-img" src="img/facebook.svg" alt=""></a>
-                        <a class="footer__social-icon" href="#"><img class="footer__social-img" src="img/instagram.svg" alt=""></a>
-                        <a class="footer__social-icon" href="#"><img class="footer__social-img" src="img/pinterest.svg" alt=""></a>
-                        <a class="footer__social-icon" href="#"><img class="footer__social-img" src="img/twitter.svg" alt=""></a>
-                    </li>
-                </ul>
             </div>
-        </div>>
+        </div>
+        </section>
     </footer>
-<script src="../M_first_work/js/script.js"></script>
+
 </body>
 
 </html>

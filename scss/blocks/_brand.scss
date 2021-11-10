@@ -1,0 +1,49 @@
+.brand {
+    display: flex;
+}
+
+.brand__wrp {
+    background-color: $light-pink;
+    flex-grow: 1;
+    padding: 0 0 0 92px;
+    display: flex;
+    align-items: center;
+}
+
+.brand__title {
+    font-family: "Lato";
+    text-transform: uppercase;
+    position: relative;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.brand__title::before {
+    height: 92px;
+    width: 12px;
+    background-color: $dark-pink;
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: 10px;
+}
+
+.brand__img {
+    background-color: $light-pink;
+}
+
+.brand__subtitle {
+    font-family: Lato;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.brand__subtitle-red {
+    color: $dark-pink;
+}

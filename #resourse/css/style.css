@@ -1,0 +1,208 @@
+:root {
+    --black: #222222;
+    --light-pink: #F1E4E6;
+    --dark-pink: #F16D7F;
+    --grey: #9F9F9F;
+    --purwhite: white;
+}
+
+.shop-page {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+}
+
+.header__controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
+
+.header__nav {
+    display: none;
+}
+
+.header__controls-user {
+    margin: 0 0 0 31px;
+}
+
+.header__controls-bag {
+    margin: 0 0 0 31px;
+}
+
+.header__controls-logo {
+    margin: 0 41px 0 0;
+}
+
+.header__controls-button {
+    border: none;
+    background-color: transparent;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand__wrp {
+    background-color: var(--light-pink);
+    flex-grow: 1;
+    padding: 0 0 0 92px;
+    display: flex;
+    align-items: center;
+}
+
+.brand__title {
+    font-family: "Lato";
+    text-transform: uppercase;
+    position: relative;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.brand__title::before {
+    height: 92px;
+    width: 12px;
+    background-color: var(--dark-pink);
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: 10px;
+}
+
+.brand__img {
+    background-color: var(--light-pink);
+}
+
+.brand__subtitle {
+    font-family: Lato;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.brand__subtitle-red {
+    color: var(--dark-pink);
+}
+
+.sales__title {
+    margin-top: 65px;
+}
+
+.sales__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sales__block-acces {
+    align-items: center;
+}
+
+.sales__box {
+    margin: 30px, 30px, 30px, 30px;
+}
+
+.sales__box-text {
+    font-family: Lato;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 105px;
+}
+
+.sales__box-red {
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--dark-pink);
+    padding-bottom: 105px;
+}
+
+.sales__box-women {
+    background-image: url(../img/For_women.jpg);
+    width: 360px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.sales__box-men {
+    background-image: url(../img/For_men.jpg);
+    width: 360px;
+    background-repeat: no-repeat;
+    color: var(--purwhite);
+}
+
+.sales__box-kids {
+    background-image: url(../img/For_kids.jpg);
+    width: 360px;
+    background-repeat: no-repeat;
+    color: var(--purwhite);
+}
+
+.sales__block-acces {
+    background-image: url(../img/Accesories.jpg);
+    background-repeat: no-repeat;
+    color: var(--purwhite);
+    margin-top: 30px;
+}
+
+.sales__block-text {
+    font-family: Lato;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 65px;
+}
+
+.sales__block-red {
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--dark-pink);
+    padding-bottom: 65px;
+}
+
+.itemsblock__title {
+    margin-top: 96px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--black);
+
+}
+
+.itemsblock__text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--grey);
+    margin-bottom: 48px;
+}

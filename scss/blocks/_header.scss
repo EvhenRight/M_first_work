@@ -1,0 +1,31 @@
+.header {
+    background-color: $black;
+}
+
+.header__controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
+
+.header__nav {
+    display: none;
+}
+
+.header__controls-user {
+    margin: 0 0 0 31px;
+}
+
+.header__controls-bag {
+    margin: 0 0 0 31px;
+}
+
+.header__controls-logo {
+    margin: 0 41px 0 0;
+}
+
+.header__controls-button {
+    border: none;
+    background-color: transparent;
+}
